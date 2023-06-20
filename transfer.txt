@@ -1,0 +1,3 @@
+donnees = pd.DataFrame(X,index=ville, 
+                       columns=[f'Dim{i+1:02d}' for i in range(5)])
+donnees
